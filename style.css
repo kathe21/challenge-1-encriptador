@@ -1,0 +1,159 @@
+body{
+margin: 0px;
+padding: 0px;
+background-image: url(imagenes/img-cielo.jpg);
+}
+
+
+
+.container{
+margin: auto;
+width: 960px;
+height: 650px;
+padding: 5px;
+
+}
+.logo{
+    width: 100%;
+    float: left;
+   
+    
+}
+.left{
+    float: left;
+    width: 70%;
+    height: 65%;
+    border-radius: 23p;
+    backgorund: white;
+}
+
+.right{
+    float: right;
+    border-radius: 24px;
+    width: 30%;
+    height: 85%;
+    
+}
+
+.left-button{
+    float: left;
+    width: 70%;
+    height:auto;
+    margin-top: 1%;
+    border-radius: 24px;
+    
+}
+
+.logoimg{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+}
+
+.title{
+    float: inherit;
+    margin-top: 10px;
+    margin-left: 3%;
+    font-size: 55px;
+    color:white;
+    text-shadow:  0 10px 25px rgb(2, 7, 80);;
+    
+    
+    
+}
+
+.cajatexto{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 50%;
+   border-radius: 2%;;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #f3f5fc;
+}
+
+#muneco{
+    margin-top: 20%;
+    margin-left: 2px;
+    width: 80%;
+    height: auto;
+
+}
+
+#texto1{
+    margin-left: 9%;
+    padding: 3%;
+    font-weight: bolder;
+}
+
+#cajatexto2{
+    float: left;
+    text-align: center;
+    margin-left: 10%;
+    width: 80%;
+    height: 25%;
+    border: none;
+    outline: none;
+    font-size: 20;
+    font-family: cursive;
+    margin-top: 10%;
+}
+
+.textinfo{
+    margin-left: 12%;
+    padding: 2%;
+
+    font-weight: lighter;
+    font-style: italic;
+    
+    
+}
+
+.button-encrip,.button-des{
+    padding: 24px;
+    color:#f3f5fc;
+    text-shadow: 0 0 10px aqua;
+    font-family: Tahoma;
+    font-style: solid;
+    font-size: larger;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #0A3871;
+    
+    transition: 2s;
+    cursor: pointer;
+}
+
+#copiar{
+    font-family:  'Times New Roman';
+    font-size: medium;
+    font-weight: bolder;
+    color: purple;
+    margin-top: 3%;
+    width: 45%;
+    padding: 4%;
+    margin-left: 30%;
+    background-color: aquamarine;
+    border-radius: 50% ;
+    border-bottom: 1%;
+    border-color: #0A3871;
+    cursor: pointer;
+}
+
+#copiar:hover{
+    border-color: wheat;
+}
+
+.button-encrip:hover{
+     font-size: 26px;
+     transition: 1s;
+}
+.button-des:hover{
+    font-size: 26px;
+    transition: 1s;
+}
